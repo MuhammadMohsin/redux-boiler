@@ -27,7 +27,7 @@ class Login extends Component {
 }
 
 const mapStateToProps = (state) => {
-    return { authObj: state.AuthReducer };
+    return { userAuth: state.AuthReducer };
 };
 const mapDispatchToProps = (dispatch) => {
     return {
